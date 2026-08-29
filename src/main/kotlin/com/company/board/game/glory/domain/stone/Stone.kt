@@ -1,4 +1,4 @@
-package com.company.board.game.glory.domain
+package com.company.board.game.glory.domain.stone
 
 enum class Stone {
     RUBY,

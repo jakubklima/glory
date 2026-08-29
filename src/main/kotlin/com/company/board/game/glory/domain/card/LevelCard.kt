@@ -1,4 +1,4 @@
-package com.company.board.game.glory.domain
+package com.company.board.game.glory.domain.card
 
 enum class LevelCard {
     ONE,

@@ -1,5 +1,8 @@
 package com.company.board.game.glory.domain
 
+import com.company.board.game.glory.domain.card.CardId
+import com.company.board.game.glory.domain.stone.Stone
+import com.company.board.game.glory.domain.stone.StoneContainer
 import org.assertj.core.api.Assertions.assertThat
 import org.junit.jupiter.api.Test
 import org.junit.jupiter.params.ParameterizedTest
@@ -48,7 +51,7 @@ class StoneContainerTest {
 
     @Test
     fun test1() {
-        val x =  StoneContainer(mapOf(Stone.SAPPHIRE to 1))
+        val x = StoneContainer(mapOf(Stone.SAPPHIRE to 1))
         println(x)
     }
 
